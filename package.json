@@ -1,0 +1,19 @@
+{
+  "name": "northwind-sanctuary",
+  "version": "1.0.0",
+  "description": "Northwind Sanctuary website: static frontend plus an Express enquiry API",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
